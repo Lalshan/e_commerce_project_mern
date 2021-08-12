@@ -4,7 +4,7 @@ import { listProducts } from "../actions/productActions";
 import { Row, Col } from "react-bootstrap";
 import ProductScreen from "./ProductScreen";
 import Loader from "../components/shared/loader";
-import Message from "../components/shared/message";
+import Message from "../components/shared/Message";
 
 const HomeScreen = () => {
   const productList = useSelector((state) => state.productList);

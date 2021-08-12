@@ -1,21 +1,5 @@
-// import React, { useEffect } from "react";
-// import { useDispatch, useSelector } from "react-redux";
-// import { Row, Col, Button, Card, ListGroupItem, Form } from "react-bootstrap";
-
-// function AddToCartScreen({ match, location, history }) {
-//   const productId = match.params.id;
-//   const qty = location.search ? Number(location.search.split("=")[1]) : 1;
-//   return (
-//     <div>
-//       <h1>Cart content not available</h1>
-//     </div>
-//   );
-// }
-
-// export default AddToCartScreen;
-
 import React, { useEffect } from "react";
-import Message from "../components/shared/message";
+import Message from "../components/shared/Message";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {

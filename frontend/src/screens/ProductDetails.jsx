@@ -13,7 +13,7 @@ import {
 import Rating from "../components/Rating";
 import { Link } from "react-router-dom";
 import Loader from "../components/shared/loader";
-import Message from "../components/shared/message";
+import Message from "../components/shared/Message";
 
 function ProductDetails({ history, match }) {
   const [qty, setQty] = useState(1);
